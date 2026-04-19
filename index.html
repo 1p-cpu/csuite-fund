@@ -12,7 +12,7 @@
 :root{
   --cream:#f5f0e8;--cream-dark:#ede8de;--cream-mid:#f0ebe0;
   --ink:#1c1a16;--ink-mid:#3d3a33;--ink-light:#6b6760;
-  --gold:#9a7c3f;--gold-light:#b8965a;--gold-pale:#e8dfc8;
+  --gold:#9a7c3f;--gold-light:#d4b47e;--gold-pale:#e8dfc8;
   --navy:#1a2f4a;--navy-mid:#243d5c;--white:#ffffff;
   --serif:'Cormorant Garamond','Noto Serif JP',serif;
   --sans:'Noto Sans JP',sans-serif;
@@ -53,15 +53,15 @@ nav a:hover{color:var(--gold);}
 .brand-tagline{position:absolute;top:60px;right:40px;font-family:var(--serif);font-size:10px;letter-spacing:.2em;color:rgba(245,240,232,.28);writing-mode:vertical-rl;}
 .hero-bg-text{position:absolute;bottom:-20px;right:-10px;font-family:var(--serif);font-size:120px;font-weight:300;color:rgba(255,255,255,.035);line-height:1;pointer-events:none;user-select:none;}
 .fund-steps{width:100%;max-width:300px;}
-.fund-steps-title{font-family:var(--serif);font-size:11px;letter-spacing:.18em;color:var(--gold);margin-bottom:24px;text-align:center;}
+.fund-steps-title{font-family:var(--serif);font-size:13px;letter-spacing:.15em;color:var(--gold-light);margin-bottom:24px;text-align:center;}
 .fund-step{display:flex;align-items:flex-start;gap:16px;padding:14px 0;border-bottom:1px solid rgba(154,124,63,.15);}
 .fund-step:last-child{border-bottom:none;}
 .fund-step-num{font-family:var(--serif);font-size:20px;font-weight:300;color:var(--gold);flex-shrink:0;width:24px;line-height:1.2;}
-.fund-step-text strong{display:block;font-size:12px;font-weight:500;color:var(--cream);margin-bottom:3px;}
-.fund-step-text span{font-size:10.5px;color:rgba(245,240,232,.45);line-height:1.6;}
+.fund-step-text strong{display:block;font-size:14px;font-weight:500;color:var(--cream);margin-bottom:5px;}
+.fund-step-text span{font-size:13px;color:rgba(245,240,232,.82);line-height:1.7;}
 .fund-badge{margin-top:24px;border:1px solid rgba(154,124,63,.3);padding:14px 18px;background:rgba(154,124,63,.06);text-align:center;}
-.fund-badge p{font-size:10.5px;color:rgba(245,240,232,.45);margin-bottom:4px;letter-spacing:.08em;}
-.fund-badge strong{font-family:var(--serif);font-size:13px;color:var(--gold-light);letter-spacing:.05em;}
+.fund-badge p{font-size:12px;color:rgba(245,240,232,.75);margin-bottom:4px;letter-spacing:.08em;}
+.fund-badge strong{font-family:var(--serif);font-size:14px;color:var(--gold-light);letter-spacing:.05em;}
 
 /* SECTIONS */
 section{padding:100px 0;}
@@ -76,7 +76,7 @@ h2 em{font-style:italic;color:var(--gold);}
 .quote-inner{max-width:800px;margin:0 auto;padding:0 40px;text-align:center;}
 .quote-inner blockquote{font-family:var(--serif);font-size:clamp(18px,2.4vw,26px);font-weight:300;font-style:italic;line-height:1.8;color:rgba(245,240,232,.85);}
 .quote-inner blockquote em{color:var(--gold-light);font-style:normal;}
-.quote-inner p{margin-top:20px;font-size:13px;line-height:1.9;color:rgba(245,240,232,.5);}
+.quote-inner p{margin-top:20px;font-size:14px;line-height:2;color:rgba(245,240,232,.82);}
 
 /* PROBLEM */
 .problem{background:var(--cream);}
@@ -98,16 +98,16 @@ h2 em{font-style:italic;color:var(--gold);}
 .value h2{color:var(--cream);}
 .value h2 em{color:var(--gold-light);}
 .value-body{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start;}
-.value-text p{font-size:15px;line-height:2.1;color:rgba(245,240,232,.78);margin-bottom:20px;}
+.value-text p{font-size:15px;line-height:2.1;color:rgba(245,240,232,.9);margin-bottom:20px;}
 .value-text p strong{font-weight:500;color:var(--cream);}
 .value-quote{border-top:1px solid rgba(154,124,63,.3);padding-top:28px;margin-top:28px;}
-.value-quote blockquote{font-family:var(--serif);font-size:17px;font-style:italic;line-height:1.8;color:var(--gold-light);font-weight:300;}
+.value-quote blockquote{font-family:var(--serif);font-size:17px;font-style:italic;line-height:1.8;color:rgba(245,240,232,.92);font-weight:300;}
 .value-points{display:flex;flex-direction:column;gap:16px;}
 .value-point{display:flex;align-items:flex-start;gap:18px;padding:18px 22px;border:1px solid rgba(154,124,63,.15);background:rgba(255,255,255,.03);transition:all .3s;}
 .value-point:hover{background:rgba(154,124,63,.08);}
 .value-icon{width:34px;height:34px;border:1px solid rgba(154,124,63,.4);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--serif);font-size:12px;color:var(--gold-light);flex-shrink:0;}
 .value-point-text strong{display:block;font-size:13px;font-weight:500;color:var(--cream);margin-bottom:3px;}
-.value-point-text span{font-size:11.5px;color:rgba(245,240,232,.48);}
+.value-point-text span{font-size:13px;color:rgba(245,240,232,.82);}
 
 /* DIFF */
 .diff-sec{background:var(--cream-mid);}
@@ -135,7 +135,7 @@ h2 em{font-style:italic;color:var(--gold);}
 .service-alpha{font-family:var(--serif);font-size:40px;font-weight:300;color:rgba(154,124,63,.3);line-height:1;}
 .service-tag{font-size:10px;letter-spacing:.2em;color:var(--gold);margin-bottom:10px;}
 .service-title{font-family:var(--serif);font-size:18px;font-weight:400;color:var(--ink);margin-bottom:12px;line-height:1.5;}
-.service-body{font-size:13px;line-height:1.95;color:var(--ink-light);}
+.service-body{font-size:13.5px;line-height:2;color:var(--ink-light);}
 
 /* REASONS */
 .reasons{background:var(--cream-mid);}
@@ -144,7 +144,7 @@ h2 em{font-style:italic;color:var(--gold);}
 .reason-num{font-family:var(--serif);font-size:11px;letter-spacing:.2em;color:var(--gold);margin-bottom:20px;padding-top:14px;position:relative;}
 .reason-num::before{content:'';position:absolute;top:0;left:0;width:18px;height:1px;background:var(--gold);}
 .reason-title{font-family:var(--serif);font-size:16px;font-weight:400;color:var(--ink);margin-bottom:16px;line-height:1.6;}
-.reason-body{font-size:13px;line-height:1.95;color:var(--ink-light);}
+.reason-body{font-size:13.5px;line-height:2;color:var(--ink-light);}
 
 /* FOR WHOM */
 .forwhom{background:var(--cream);}
@@ -203,15 +203,15 @@ details[open] .faq-toggle{transform:rotate(45deg);}
 .cta-section{background:var(--navy);padding:120px 0;}
 .cta-inner{max-width:680px;margin:0 auto;padding:0 40px;text-align:center;}
 .cta-eyebrow{font-family:var(--serif);font-size:11px;letter-spacing:.25em;color:var(--gold);margin-bottom:32px;display:flex;align-items:center;justify-content:center;gap:16px;}
-.cta-eyebrow::before,.cta-eyebrow::after{content:'';display:block;width:40px;height:1px;background:var(--gold);opacity:.45;}
+.cta-eyebrow::before,.cta-eyebrow::after{content:'';display:block;width:40px;height:1px;background:var(--gold-light);opacity:.7;}
 .cta-h2{font-family:var(--serif);font-size:clamp(24px,3.2vw,38px);font-weight:400;color:var(--cream);line-height:1.55;margin-bottom:28px;}
-.cta-body{font-size:14px;line-height:2.2;color:rgba(245,240,232,.58);margin-bottom:44px;}
+.cta-body{font-size:15px;line-height:2.2;color:rgba(245,240,232,.85);margin-bottom:44px;}
 .cta-btn{display:inline-flex;align-items:center;gap:14px;background:var(--cream);color:var(--ink);padding:18px 44px;font-size:14px;letter-spacing:.08em;text-decoration:none;transition:all .3s;margin-bottom:20px;}
 .cta-btn:hover{background:var(--gold-pale);}
-.cta-sub{font-size:11.5px;color:rgba(245,240,232,.38);line-height:2;}
+.cta-sub{font-size:13px;color:rgba(245,240,232,.78);line-height:2.1;}
 .cta-badges{margin-top:28px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap;}
-.cta-badge{font-size:11px;color:rgba(245,240,232,.33);display:flex;align-items:center;gap:6px;}
-.cta-badge::before{content:'';width:4px;height:4px;border-radius:50%;background:rgba(154,124,63,.38);flex-shrink:0;}
+.cta-badge{font-size:12px;color:rgba(245,240,232,.75);display:flex;align-items:center;gap:6px;}
+.cta-badge::before{content:'';width:4px;height:4px;border-radius:50%;background:rgba(201,169,110,.7);flex-shrink:0;}
 
 footer{background:var(--ink);padding:56px 0 40px;}
 .footer-inner{max-width:960px;margin:0 auto;padding:0 40px;}
@@ -228,6 +228,53 @@ footer{background:var(--ink);padding:56px 0 40px;}
 .hero-left>*{animation:fadeUp .8s ease both;}
 .hero-eyebrow{animation-delay:.1s;}.hero-h1{animation-delay:.25s;}.hero-sub{animation-delay:.38s;}.hero-cred{animation-delay:.48s;}.hero-btns{animation-delay:.58s;}.hero-cta-note{animation-delay:.65s;}
 
+/* モバイル可読性向上 */
+@media(max-width:768px){
+  body{font-size:16px;line-height:2;}
+  .value-text p,.diff-text p,.what-text p{font-size:15px;line-height:2.1;}
+  .problem-text p,.service-body,.reason-body{font-size:14px;line-height:2;}
+  .faq-qtext{font-size:15px;}
+  .faq-a{font-size:14px;line-height:2.1;}
+  .cta-body{font-size:15px;line-height:2.2;}
+  .cta-sub{font-size:13px;}
+  .flow-step-body p{font-size:14px;line-height:2;color:rgba(245,240,232,.88);}
+  .fund-step-text strong{font-size:13px;}
+  .fund-step-text span{font-size:12px;}
+  /* 青背景セクション内の文字を明るく */
+  .value-text p{color:rgba(245,240,232,.88);}
+  .flow-intro{font-size:15px;}
+  .flow-step-body strong{font-size:16px;}
+  .flow-step-body p{color:rgba(245,240,232,.75);}
+  .quote-inner blockquote{font-size:19px;}
+  .quote-inner p{font-size:15px;color:rgba(245,240,232,.88);}
+  /* スマホ：青背景セクション全体強化 */
+  .fund-step-text span{font-size:13px !important;color:rgba(245,240,232,.88) !important;}
+  .fund-step-text strong{font-size:14px !important;}
+  .value-point-text span{font-size:13px !important;color:rgba(245,240,232,.88) !important;}
+  .value-text p{color:rgba(245,240,232,.92) !important;}
+  .flow-step-body p{font-size:15px !important;color:rgba(245,240,232,.88) !important;}
+  .flow-step-body strong{font-size:17px !important;}
+  .flow-intro{font-size:15px !important;color:rgba(245,240,232,.88) !important;}
+  .cta-body{font-size:16px !important;color:rgba(245,240,232,.9) !important;}
+  .cta-sub{font-size:14px !important;color:rgba(245,240,232,.82) !important;}
+  .cta-badge{font-size:13px !important;color:rgba(245,240,232,.82) !important;}
+  .fund-steps-title{font-size:14px !important;}
+  .flow-note p{font-size:15px !important;color:rgba(245,240,232,.92) !important;}
+  /* 追加強化 */
+  .reason-title{font-size:15px !important;}
+  .reason-body{font-size:14.5px !important;line-height:2.1 !important;}
+  .service-title{font-size:17px !important;}
+  .service-body{font-size:14.5px !important;line-height:2.1 !important;}
+  .problem-title{font-size:15px !important;}
+  .problem-text p{font-size:14.5px !important;line-height:2.1 !important;}
+  .hero-cred{font-size:13px !important;line-height:2 !important;}
+  .profile-right p{font-size:15px !important;line-height:2.2 !important;}
+  .forwhom-list li{font-size:15px !important;}
+  .diff-cell{font-size:13px !important;}
+  .faq-a{font-size:15px !important;line-height:2.1 !important;}
+  .cta-h2{font-size:28px !important;}
+  .cta-btn{font-size:15px !important;padding:20px 32px !important;}
+}
 @media(max-width:900px){
   header{padding:0 24px;}
   .hero{grid-template-columns:1fr;min-height:auto;}
@@ -249,40 +296,6 @@ footer{background:var(--ink);padding:56px 0 40px;}
   nav a:not(.nav-cta){display:none;}
 }
 </style>
-<!-- Google Analytics GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y70062NC23"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-Y70062NC23');
-</script>
-<!-- Google Analytics GA4 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y70062NC23"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-Y70062NC23');
-</script>
-<!-- SEO -->
-<meta name="description" content="銀行交渉、資金繰り改善、財務体質強化まで一貫して支援。調達だけで終わらない資金調達支援を提供します。" />
-<meta name="robots" content="index, follow" />
-<link rel="canonical" href="https://1p-cpu.github.io/csuite-fund/" />
-<!-- OGP -->
-<meta property="og:type" content="website" />
-<meta property="og:title" content="資金調達支援｜銀行対応・財務改善｜株式会社C-suite & Co." />
-<meta property="og:description" content="銀行交渉、資金繰り改善、財務体質強化まで一貫して支援。調達だけで終わらない資金調達支援を提供します。" />
-<meta property="og:url" content="https://1p-cpu.github.io/csuite-fund/" />
-<meta property="og:site_name" content="C-suite & Co." />
-<meta property="og:image" content="https://1p-cpu.github.io/csuite-fund/ogp.jpg" />
-<meta property="og:locale" content="ja_JP" />
-<!-- X (Twitter) Card -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="資金調達支援｜銀行対応・財務改善｜株式会社C-suite & Co." />
-<meta name="twitter:description" content="銀行交渉、資金繰り改善、財務体質強化まで一貫して支援。調達だけで終わらない資金調達支援を提供します。" />
-<meta name="twitter:image" content="https://1p-cpu.github.io/csuite-fund/ogp.jpg" />
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%231F3A5F'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-size='16' font-style='italic' fill='%23B91C1C' text-anchor='middle'%3EC%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
 
@@ -312,12 +325,12 @@ footer{background:var(--ink);padding:56px 0 40px;}
       書類を作るだけでなく、なぜ借りられるかのロジックを財務から組み立て、<br>
       社長が一人で銀行対応を抱えない状態をつくります。
     </p>
-    <p class="hero-cred">公認会計士・税理士 ／ 一般社団法人融資コンサルタント協会 SPコンサルタント</p>
+    <p class="hero-cred">CFOとして資金調達実行実績あり ／ 公認会計士・税理士 ／ 融資コンサルタント協会 SPコンサルタント</p>
     <div class="hero-btns">
       <a href="#cta" class="btn-primary">資金調達の現状を整理する（初回相談・60分）&nbsp;→</a>
       <a href="#services" class="btn-ghost">支援内容を見る</a>
     </div>
-    <p class="hero-cta-note">売り込みません。現状を整理し、今どう動くべきかをお伝えします。</p>
+    <p class="hero-cta-note">今回の資金調達に必要な論点を、60分で整理します。<br><span style="display:block;margin-top:6px;font-size:11px;color:var(--ink-light);letter-spacing:.03em;">資金調達は「準備の差」で結果が決まります。後手に回る前に、一度整理してください。</span></p>
   </div>
   <div class="hero-right">
     <div class="brand-tagline">経営を、個人から構造へ。</div>
@@ -341,7 +354,7 @@ footer{background:var(--ink);padding:56px 0 40px;}
       </div>
       <div class="fund-step">
         <div class="fund-step-num">5</div>
-        <div class="fund-step-text"><strong>実行後のフォロー</strong><span>資金管理・次の調達タイミングの設計</span></div>
+        <div class="fund-step-text"><strong>融資実行・条件確認</strong><span>入金確認・実行条件・最終確認まで</span></div>
       </div>
       <div class="fund-badge">
         <p>対応融資種別</p>
@@ -421,9 +434,10 @@ footer{background:var(--ink);padding:56px 0 40px;}
       <div class="value-text">
         <p>一般的な融資支援は、申請書類の作成・提出が中心です。弊社が提供するのは、それとは異なります。</p>
         <p>「なぜこの金額が必要か」「なぜ今このタイミングか」「なぜ返済できるのか」——<strong>金融機関が審査の場で問うこれらの問いに、財務データをもとにロジックとして答えられる状態をつくること</strong>が弊社の支援の核心です。</p>
-        <p>さらに、今回の融資だけで終わらせない。<strong>借りたいときに借りられる財務体質を継続的に維持・強化する</strong>こと。資金調達を一過性のイベントではなく、経営の継続的な基盤として設計することを重視しています。</p>
+        <p>今回の融資を確実に実行することが第一目標です。そのために、財務データから「なぜ返せるか」の根拠を組み立て、金融機関が納得できる状態で申請に臨みます。</p>
         <div class="value-quote">
           <blockquote>「経営を、個人から構造へ。」<br>銀行対応も、社長一人が抱えるのではなく、仕組みとして整える。</blockquote>
+          <p style="margin-top:20px;font-size:14px;line-height:2;color:rgba(245,240,232,.88);">今回の資金調達を実行することが、弊社の役割です。その過程で財務上の課題が見えた場合は、必要に応じて別途ご相談いただけます。</p>
         </div>
       </div>
       <div class="value-points">
@@ -436,12 +450,12 @@ footer{background:var(--ink);padding:56px 0 40px;}
           <div class="value-point-text"><strong>銀行対応を社長一人から解放する</strong><span>面談準備・同行・交渉まで一緒に進める</span></div>
         </div>
         <div class="value-point">
-          <div class="value-icon">税</div>
-          <div class="value-point-text"><strong>税務・資金繰りを連動して整理する</strong><span>申告・納税・資金繰りを分断せず一体で管理</span></div>
+          <div class="value-icon">繰</div>
+          <div class="value-point-text"><strong>資金繰り・返済計画を財務から整理する</strong><span>借入後の資金の流れまで見据えた上で申請に臨む</span></div>
         </div>
         <div class="value-point">
-          <div class="value-icon">継</div>
-          <div class="value-point-text"><strong>一過性で終わらせない継続設計</strong><span>次の調達タイミングまで見据えた財務体質の維持</span></div>
+          <div class="value-icon">実</div>
+          <div class="value-point-text"><strong>実行まで一貫して担う</strong><span>診断・資料作成・銀行同行・実行確認まで一気通貫</span></div>
         </div>
       </div>
     </div>
@@ -456,7 +470,7 @@ footer{background:var(--ink);padding:56px 0 40px;}
     <div class="diff-layout">
       <div class="diff-text">
         <p>融資支援の多くは、申請書類を整えて提出することが主な業務です。弊社はそこに加えて、財務構造そのものを整え、金融機関が納得できるロジックを組み立てます。</p>
-        <p>公認会計士・税理士として財務を深く理解しているからこそ、<strong>税務・資金繰り・銀行対応を分断せず一体で整理できる</strong>のが弊社の特徴です。</p>
+        <p>CFOとして資金調達を実行してきた経験と、公認会計士としての財務の専門性を持つからこそ、<strong>財務構造・資金繰り・銀行対応を分断せず一体で整理できる</strong>のが弊社の強みです。</p>
       </div>
       <div>
         <div class="diff-table">
@@ -468,10 +482,10 @@ footer{background:var(--ink);padding:56px 0 40px;}
           <div class="diff-row"><div class="diff-cell row-label">融資戦略の立案</div><div class="diff-cell ours"><span class="check">✓</span> 財務から設計</div><div class="diff-cell"><span class="dash">—</span> 書類作成が中心</div></div>
           <div class="diff-row"><div class="diff-cell row-label">申請資料の作成</div><div class="diff-cell ours"><span class="check">✓</span> 完全対応</div><div class="diff-cell"><span class="check">✓</span> 対応</div></div>
           <div class="diff-row"><div class="diff-cell row-label">銀行同行・交渉</div><div class="diff-cell ours"><span class="check">✓</span> 同行対応</div><div class="diff-cell"><span class="dash">—</span> 対象外が多い</div></div>
-          <div class="diff-row"><div class="diff-cell row-label">税務との連動</div><div class="diff-cell ours"><span class="check">✓</span> 一体で整理</div><div class="diff-cell"><span class="dash">—</span> 対象外</div></div>
+          <div class="diff-row"><div class="diff-cell row-label">財務・銀行対応の整理</div><div class="diff-cell ours"><span class="check">✓</span> 財務から一体で</div><div class="diff-cell"><span class="dash">—</span> 対象外</div></div>
           <div class="diff-row"><div class="diff-cell row-label">財務体質の改善</div><div class="diff-cell ours"><span class="check">✓</span> 一体で対応</div><div class="diff-cell"><span class="dash">—</span> 対象外</div></div>
-          <div class="diff-row"><div class="diff-cell row-label">融資実行後のフォロー</div><div class="diff-cell ours"><span class="check">✓</span> 継続対応</div><div class="diff-cell"><span class="dash">—</span> 終了が多い</div></div>
-          <div class="diff-note">違いは「書類を作るかどうか」ではありません。借りられる根拠を財務構造から整えられるかどうか、その一点が結果を分けます。</div>
+          
+          <div class="diff-note">違いは書類を作るかどうかではありません。「なぜ返せるか」を財務構造から組み立て、金融機関が納得できる状態で申請に臨めるか、その一点です。<br><span style="display:block;margin-top:10px;padding-top:10px;border-top:1px solid rgba(154,124,63,.15);color:var(--ink-mid);font-size:11.5px;line-height:1.85;">この違いが結果として、融資実行確率の向上・調達額の最大化・返済条件の最適化につながります。</span></div>
         </div>
       </div>
     </div>
@@ -482,8 +496,8 @@ footer{background:var(--ink);padding:56px 0 40px;}
 <section class="services" id="services">
   <div class="container">
     <p class="sec-label">04 &nbsp;支援内容</p>
-    <h2>診断から実行後まで、<br><em>一気通貫で担います。</em></h2>
-    <p class="services-intro">書類作成だけの支援ではありません。融資戦略の設計から金融機関との交渉、実行後の資金管理まで、必要な範囲で一貫して対応します。</p>
+    <h2>今回の資金調達に必要な範囲を、<br><em>実行まで一貫して支援します。</em></h2>
+    <p class="services-intro">書類作成だけの支援ではありません。融資戦略の設計から申請資料の作成、金融機関との交渉、融資実行まで、今回の資金調達に必要な範囲を一貫して対応します。</p>
     <div class="services-list">
       <div class="service-item">
         <div class="service-alpha">A</div>
@@ -520,9 +534,9 @@ footer{background:var(--ink);padding:56px 0 40px;}
       <div class="service-item">
         <div class="service-alpha">E</div>
         <div>
-          <div class="service-tag">融資実行後のフォロー</div>
-          <p class="service-title">「借りて終わり」にしない。継続的に借りられる体質をつくります。</p>
-          <p class="service-body">融資実行後の資金管理・返済スケジュールの確認・次の調達タイミングの設計まで対応します。今回の融資だけでなく、借りたいときに借りられる財務体質を経営の中に組み込むことを重視しています。</p>
+          <div class="service-tag">融資実行・条件確認</div>
+          <p class="service-title">融資実行まで、責任を持って完結させます。</p>
+          <p class="service-body">融資実行時の入金確認、条件面の最終確認まで対応します。今回の申請を、実行まで責任を持って完結させることが弊社の役割です。</p>
         </div>
       </div>
     </div>
@@ -537,13 +551,13 @@ footer{background:var(--ink);padding:56px 0 40px;}
     <div class="reasons-grid">
       <div class="reason-card">
         <p class="reason-num">理由 01</p>
-        <p class="reason-title">財務・税務・銀行対応を、分断せずに一体で見られる</p>
-        <p class="reason-body">顧問税理士は申告を担当し、融資支援は別業者に頼む——このとき「全体を見ている人間」が誰もいなくなります。弊社は公認会計士・税理士として財務構造を深く理解した上で、融資戦略・銀行交渉・資金繰りを一体で整理します。税務と資金調達が連動して初めて、判断の精度が上がります。</p>
+        <p class="reason-title">資金調達を「実行してきた人間」が、担当します</p>
+        <p class="reason-body">スタートアップ企業のCFOとして資金調達を自ら実行してきた。銀行交渉の場に座り、財務を整え、条件を引き出す判断を当事者として担ってきた経験があります。赤字企業での調達実績も含め、直近1年間で3億円の資金調達を実行しています。「分析する専門家」ではなく、「実際に借りてきた実行者」として御社の資金調達に向き合います。</p>
       </div>
       <div class="reason-card">
         <p class="reason-num">理由 02</p>
-        <p class="reason-title">「申請が通るかどうか」の判断を、最初に正直に伝えます</p>
-        <p class="reason-body">弊社は成功報酬型ではありません。現在の財務状況を見て「通る可能性が低い」と判断した場合は、まずその理由と改善策をお伝えします。通らない申請を無理に進めるのではなく、「通る状態になってから動く」という順番を大切にしています。</p>
+        <p class="reason-title">「通らないなら、やらない」と最初に伝えます</p>
+        <p class="reason-body">現在の財務状況を見て「通る可能性が低い」と判断した場合は、その理由と改善すべき点を最初にお伝えします。通らない申請を無理に進めることはしません。「通る状態になってから動く」——これが弊社の行動基準です。</p>
       </div>
       <div class="reason-card">
         <p class="reason-num">理由 03</p>
@@ -569,7 +583,7 @@ footer{background:var(--ink);padding:56px 0 40px;}
           <li>顧問税理士はいるが、資金調達や銀行交渉まで相談できていない</li>
           <li>以前融資を断られた経験があり、原因を整理したい</li>
           <li>設備投資・運転資金・納税資金の調達を検討している</li>
-          <li>まだ困っていないが、半年〜1年後に備えて準備したい</li>
+          <li>まだ急ぎではないが、条件の良いうちに融資枠を確保しておきたい</li>
         </ul>
       </div>
       <div class="forwhom-col">
@@ -605,11 +619,11 @@ footer{background:var(--ink);padding:56px 0 40px;}
         </div>
       </div>
       <div class="profile-right">
-        <h3>なぜ、このテーマを相談する相手として適しているか。</h3>
+        <h3>資金調達を、実行者として担ってきた。</h3>
         <p>EY新日本有限責任監査法人での監査業務を経て、スタートアップ企業にて常務取締役CFOに就任。資金調達・財務体制の構築を軸に、コーポレート部門全体を管掌した。その後、PEファンド投資先企業にて取締役として関与し、財務・組織・経営管理の実務を担った。</p>
-        <p>資金調達支援においては、<strong>「なぜ借りられるか」のロジックを財務データから組み立てること</strong>に強みを持つ。申請書類の作成にとどまらず、金融機関が何を見ているかを理解した上で、財務体質そのものを整える伴走支援を行っている。</p>
-        <p>公認会計士・税理士として財務構造を深く理解しているため、税務・資金繰り・銀行対応を分断せず一体で整理できる。また、一般社団法人融資コンサルタント協会 SPコンサルタントとして、<strong>体系化された支援知見と専門家ネットワークにも接続されており</strong>、個別ケースへの対応力と判断の精度を高めている。</p>
-        <p>「経営を、個人から構造へ。」資金調達を社長の属人的な仕事から解放し、継続的に借りられる会社の仕組みをつくることに注力している。</p>
+        <p>資金調達支援においては、<strong>「なぜ借りられるか」のロジックを財務データから組み立てること</strong>に強みを持つ。申請書類の作成にとどまらず、金融機関が何を見ているかを理解した上で、財務体質そのものを整えた上で申請に臨む実務支援を行っている。</p>
+        <p>公認会計士・税理士としての専門性に加え、CFOとして当事者の立場で資金調達を実行してきた経験がある。銀行対応・財務整理・経営判断を一体で進められることが、外部専門家として関わる際の最大の強みです。一般社団法人融資コンサルタント協会 SPコンサルタントとして、<strong>体系化された支援知見と専門家ネットワークにも接続されており</strong>、個別ケースへの対応力を高めている。</p>
+        <p>「経営を、個人から構造へ。」今回の融資を確実に通すことが、次の経営判断の土台になる。その一件に全力で向き合うことを大切にしています。</p>
       </div>
     </div>
   </div>
@@ -641,6 +655,14 @@ footer{background:var(--ink);padding:56px 0 40px;}
         <summary class="faq-q"><span class="faq-qmark">Q</span><span class="faq-qtext">急ぎの相談にも対応していますか？</span><span class="faq-toggle">+</span></summary>
         <p class="faq-a">はい、急ぎの案件にも対応しています。まず初回相談（60分）で現状をヒアリングし、対応可能なスケジュールと優先順位をお伝えします。タイムラインによって対応範囲が変わる場合があるため、まず早めにご連絡ください。</p>
       </details>
+      <details>
+        <summary class="faq-q"><span class="faq-qmark">Q</span><span class="faq-qtext">資金調達サポートは継続契約ですか？</span><span class="faq-toggle">+</span></summary>
+        <p class="faq-a">いいえ。基本は今回の資金調達に必要な範囲を対象とした単発支援です。調達の過程で財務構造上の課題が見つかった場合は、必要に応じて別サービス（経営セカンドオピニオンまたはCXO）をご案内することがあります。</p>
+      </details>
+      <details>
+        <summary class="faq-q"><span class="faq-qmark">Q</span><span class="faq-qtext">顧問契約やCXO契約を前提にしていますか？</span><span class="faq-toggle">+</span></summary>
+        <p class="faq-a">いいえ。資金調達サポートは単発でご利用いただけます。ただし、自社で借り切れない背景に構造的な課題がある場合に限り、社長との1on1で論点整理を行う経営セカンドオピニオン、または組織の中に入り横断的に動くCXOを別途ご提案することがあります。</p>
+      </details>
     </div>
   </div>
 </section>
@@ -655,19 +677,19 @@ footer{background:var(--ink);padding:56px 0 40px;}
       <a href="https://1p-cpu.github.io/csuite-cxo/" class="other-card">
         <p class="other-phase">経営の構造化</p>
         <p class="other-title">中小企業未来経営 CXO</p>
-        <p class="other-desc">資金調達だけでなく、財務・組織・経営判断を同時に整えたい方へ。外部CXOとして経営の内側に入ります。</p>
-        <span class="other-link">詳細を見る</span>
-      </a>
-      <a href="#" class="other-card">
-        <p class="other-phase">出口フェーズ</p>
-        <p class="other-title">事業承継支援</p>
-        <p class="other-desc">承継後の財務・組織体制の整備まで含めて支援します。中小企業未来経営CXOの一形態。</p>
+        <p class="other-desc">資金調達を通じて見えてきた経営課題を、組織の内側から横断的に整えたい方へ。外部CXOとして経営チームに加わります。</p>
         <span class="other-link">詳細を見る</span>
       </a>
       <a href="https://1p-cpu.github.io/csuite-tax-advisory/" class="other-card">
-        <p class="other-phase">税務・財務顧問</p>
+        <p class="other-phase">税務・財務顧問（法人）</p>
         <p class="other-title">法人向け税務顧問</p>
         <p class="other-desc">申告だけで終わらない税務顧問。納税予測・資金繰り・銀行対応まで先読みして支援します。</p>
+        <span class="other-link">詳細を見る</span>
+      </a>
+      <a href="https://1p-cpu.github.io/csuite-tax-advisory-sole/" class="other-card">
+        <p class="other-phase">税務顧問（個人）</p>
+        <p class="other-title">個人向け税務顧問</p>
+        <p class="other-desc">個人事業主・フリーランスの税務顧問。確定申告だけでなく、手元資金と次の判断まで一緒に整えます。</p>
         <span class="other-link">詳細を見る</span>
       </a>
     </div>
@@ -680,13 +702,15 @@ footer{background:var(--ink);padding:56px 0 40px;}
     <p class="cta-eyebrow">初回相談のご案内</p>
     <h2 class="cta-h2">まず、今の資金状況と<br>次に動くべき手順を<br>整理しましょう。</h2>
     <p class="cta-body">
+      資金調達は、タイミングを逃すと選択肢が一気に減ります。<br>
+      まだ余裕がある今のうちに、一度現状を整理してください。<br><br>
       初回相談（60分）では、現在の資金状況・融資の目的・<br>
       金融機関との関係をヒアリングし、<br>
-      今いくら・どこに・どのタイミングで動くべきかを一緒に整理します。<br>
-      売り込みません。現状を整理し、次の一手を明確にすることが目的です。
+      今回の融資で何ができるか・どう動くべきかを整理します。<br>
+      売り込みません。この60分で、動くかどうかを判断できる状態にします。
     </p>
-    <a href="https://www.c-suite-co.com/form.html" class="cta-btn">資金調達の現状を整理する（初回相談・60分）&nbsp;→</a>
-    <p class="cta-sub">まず話してみてください。60分で、現状と次の手を整理します。</p>
+    <a href="https://docs.google.com/forms/d/1chWcN39woeFDQB1v01ozXJ4ClAvytpTCMMUuZGFK3xs/viewform" class="cta-btn">資金調達の現状を整理する（初回相談・60分）&nbsp;→</a>
+    <p class="cta-sub">売り込みません。今回の資金調達に必要な論点整理が目的です。<br>調達の過程で構造課題が見つかった場合のみ、別途ご相談いただけます。</p>
     <div class="cta-badges">
       <span class="cta-badge">初回相談 完全無料（60分）</span>
       <span class="cta-badge">強引な勧誘は一切行いません</span>
@@ -707,7 +731,7 @@ footer{background:var(--ink);padding:56px 0 40px;}
         <a href="https://www.c-suite-co.com/">会社HP</a>
         <a href="https://1p-cpu.github.io/csuite-cxo/">中小企業未来経営CXO</a>
         <a href="https://1p-cpu.github.io/csuite-tax-advisory/">税務顧問LP</a>
-        <a href="https://www.c-suite-co.com/form.html">お問い合わせ</a>
+        <a href="https://docs.google.com/forms/d/1chWcN39woeFDQB1v01ozXJ4ClAvytpTCMMUuZGFK3xs/viewform">お問い合わせ</a>
       </div>
     </div>
     <p class="footer-copy">© 2025 株式会社C-suite&amp;Co. All rights reserved.</p>
